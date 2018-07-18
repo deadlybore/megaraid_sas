@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL="https://github.com/npf/megaraid_sas/raw/master"
+URL="https://github.com/deadlybore/megaraid_sas/raw/personify"
 for path in ../deb/*amd64.deb; do
   file=${path##*/}
   t=${file#megaraid-sas-modules-}
